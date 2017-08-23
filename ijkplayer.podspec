@@ -25,7 +25,7 @@ bilibili/ijkplayer  IJKMediaFramework 上传到 cococapods
 
   s.homepage     = "https://github.com/iOSDevLog/ijkplayer"
 
-  s.license      = "GNU Lesser General Public License v2.1"
+  s.license      = { :type => "GNU Lesser General Public License v2.1", :file => "LICENSE" }
 
   s.author             = { "iosdevlog" => "iosdevlog@iosdevlog.com" }
   s.social_media_url   = "https://twitter.com/iosdevlog"
