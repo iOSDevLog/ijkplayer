@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		A2FF8741EE27E2F584FFAC40 /* Pods_ijkplayer_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB37005FFF94F0B4ED2D08AC /* Pods_ijkplayer_Swift.framework */; };
+		DE0756E21F4ED5520049A17A /* IJKDemoLocalFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756E11F4ED5510049A17A /* IJKDemoLocalFolderViewController.swift */; };
+		DE0756E41F4ED8A10049A17A /* IJKPlayerDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0756E31F4ED8A10049A17A /* IJKPlayerDemo.storyboard */; };
+		DE0756E61F4ED9850049A17A /* IJKDemoSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756E51F4ED9850049A17A /* IJKDemoSampleViewController.swift */; };
+		DE0756E81F4F1E470049A17A /* IJKDemoInputURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756E71F4F1E470049A17A /* IJKDemoInputURLViewController.swift */; };
+		DE0756EA1F4F21180049A17A /* IJKQRCodeScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756E91F4F21180049A17A /* IJKQRCodeScanViewController.swift */; };
+		DE0756ED1F4F246A0049A17A /* Barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756EC1F4F246A0049A17A /* Barcode.swift */; };
+		DE0756F11F4FAD840049A17A /* IJKDemoHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756F01F4FAD840049A17A /* IJKDemoHistoryItem.swift */; };
+		DE0756F31F4FADB20049A17A /* IJKDemoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0756F21F4FADB20049A17A /* IJKDemoMainViewController.swift */; };
+		DE0756F51F4FC4790049A17A /* IJKMediaControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0756F41F4FC4790049A17A /* IJKMediaControl.xib */; };
 		DE4070FB1F4E6A7000083127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4070FA1F4E6A7000083127 /* AppDelegate.swift */; };
 		DE4070FD1F4E6A7000083127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4070FC1F4E6A7000083127 /* ViewController.swift */; };
 		DE4071001F4E6A7000083127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4070FE1F4E6A7000083127 /* Main.storyboard */; };
 		DE4071021F4E6A7000083127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4071011F4E6A7000083127 /* Assets.xcassets */; };
 		DE4071051F4E6A7000083127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4071031F4E6A7000083127 /* LaunchScreen.storyboard */; };
+		DE40710F1F4E8D0400083127 /* ijkplayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE40710E1F4E8D0400083127 /* ijkplayer.storyboard */; };
+		DE40713D1F4EA44B00083127 /* ijkplayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE40713C1F4EA44B00083127 /* ijkplayer.xcassets */; };
+		DE40713F1F4EA63200083127 /* IJKMediaControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE40713E1F4EA63200083127 /* IJKMediaControl.swift */; };
+		DE4071411F4EA89F00083127 /* IJKPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4071401F4EA89F00083127 /* IJKPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66AA1A8010D9A357BB60A2DE /* Pods-ijkplayer-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkplayer-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ijkplayer-Swift/Pods-ijkplayer-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		6DCE7FDC06DE12FB1E4C4FE1 /* Pods-ijkplayer-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ijkplayer-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ijkplayer-Swift/Pods-ijkplayer-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		CB37005FFF94F0B4ED2D08AC /* Pods_ijkplayer_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ijkplayer_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0756E11F4ED5510049A17A /* IJKDemoLocalFolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKDemoLocalFolderViewController.swift; sourceTree = "<group>"; };
+		DE0756E31F4ED8A10049A17A /* IJKPlayerDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IJKPlayerDemo.storyboard; sourceTree = "<group>"; };
+		DE0756E51F4ED9850049A17A /* IJKDemoSampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKDemoSampleViewController.swift; sourceTree = "<group>"; };
+		DE0756E71F4F1E470049A17A /* IJKDemoInputURLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKDemoInputURLViewController.swift; sourceTree = "<group>"; };
+		DE0756E91F4F21180049A17A /* IJKQRCodeScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKQRCodeScanViewController.swift; sourceTree = "<group>"; };
+		DE0756EC1F4F246A0049A17A /* Barcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barcode.swift; sourceTree = "<group>"; };
+		DE0756F01F4FAD840049A17A /* IJKDemoHistoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKDemoHistoryItem.swift; sourceTree = "<group>"; };
+		DE0756F21F4FADB20049A17A /* IJKDemoMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKDemoMainViewController.swift; sourceTree = "<group>"; };
+		DE0756F41F4FC4790049A17A /* IJKMediaControl.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMediaControl.xib; sourceTree = "<group>"; };
 		DE4070F71F4E6A7000083127 /* ijkplayer-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ijkplayer-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4070FA1F4E6A7000083127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4070FC1F4E6A7000083127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +49,10 @@
 		DE4071041F4E6A7000083127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4071061F4E6A7000083127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE40710C1F4E6B2500083127 /* ijkplayer-Swift-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ijkplayer-Swift-Bridge-Header.h"; sourceTree = "<group>"; };
+		DE40710E1F4E8D0400083127 /* ijkplayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ijkplayer.storyboard; sourceTree = "<group>"; };
+		DE40713C1F4EA44B00083127 /* ijkplayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ijkplayer.xcassets; sourceTree = "<group>"; };
+		DE40713E1F4EA63200083127 /* IJKMediaControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKMediaControl.swift; sourceTree = "<group>"; };
+		DE4071401F4EA89F00083127 /* IJKPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJKPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +76,28 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DE0756E01F4ED51F0049A17A /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DE0756E11F4ED5510049A17A /* IJKDemoLocalFolderViewController.swift */,
+				DE0756E51F4ED9850049A17A /* IJKDemoSampleViewController.swift */,
+				DE0756E71F4F1E470049A17A /* IJKDemoInputURLViewController.swift */,
+				DE0756E91F4F21180049A17A /* IJKQRCodeScanViewController.swift */,
+				DE0756F21F4FADB20049A17A /* IJKDemoMainViewController.swift */,
+				DE0756E31F4ED8A10049A17A /* IJKPlayerDemo.storyboard */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		DE0756EB1F4F243F0049A17A /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				DE0756F01F4FAD840049A17A /* IJKDemoHistoryItem.swift */,
+				DE0756EC1F4F246A0049A17A /* Barcode.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		DE4070EE1F4E6A7000083127 = {
 			isa = PBXGroup;
 			children = (
@@ -71,15 +119,38 @@
 		DE4070F91F4E6A7000083127 /* ijkplayer-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DE0756EB1F4F243F0049A17A /* Misc */,
+				DE0756E01F4ED51F0049A17A /* Demo */,
 				DE4070FA1F4E6A7000083127 /* AppDelegate.swift */,
 				DE4070FC1F4E6A7000083127 /* ViewController.swift */,
 				DE4070FE1F4E6A7000083127 /* Main.storyboard */,
+				DE40713A1F4EA36700083127 /* Support */,
+				DE40713B1F4EA37400083127 /* ijkplayer */,
+			);
+			path = "ijkplayer-Swift";
+			sourceTree = "<group>";
+		};
+		DE40713A1F4EA36700083127 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				DE4071011F4E6A7000083127 /* Assets.xcassets */,
 				DE4071031F4E6A7000083127 /* LaunchScreen.storyboard */,
 				DE4071061F4E6A7000083127 /* Info.plist */,
 				DE40710C1F4E6B2500083127 /* ijkplayer-Swift-Bridge-Header.h */,
 			);
-			path = "ijkplayer-Swift";
+			name = Support;
+			sourceTree = "<group>";
+		};
+		DE40713B1F4EA37400083127 /* ijkplayer */ = {
+			isa = PBXGroup;
+			children = (
+				DE40710E1F4E8D0400083127 /* ijkplayer.storyboard */,
+				DE40713C1F4EA44B00083127 /* ijkplayer.xcassets */,
+				DE0756F41F4FC4790049A17A /* IJKMediaControl.xib */,
+				DE40713E1F4EA63200083127 /* IJKMediaControl.swift */,
+				DE4071401F4EA89F00083127 /* IJKPlayerViewController.swift */,
+			);
+			path = ijkplayer;
 			sourceTree = "<group>";
 		};
 		E41B0937ADE8F368AD5D9DD6 /* Frameworks */ = {
@@ -125,6 +196,7 @@
 				TargetAttributes = {
 					DE4070F61F4E6A7000083127 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U42NM79F4W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,7 +226,11 @@
 			files = (
 				DE4071051F4E6A7000083127 /* LaunchScreen.storyboard in Resources */,
 				DE4071021F4E6A7000083127 /* Assets.xcassets in Resources */,
+				DE0756F51F4FC4790049A17A /* IJKMediaControl.xib in Resources */,
+				DE40710F1F4E8D0400083127 /* ijkplayer.storyboard in Resources */,
 				DE4071001F4E6A7000083127 /* Main.storyboard in Resources */,
+				DE40713D1F4EA44B00083127 /* ijkplayer.xcassets in Resources */,
+				DE0756E41F4ED8A10049A17A /* IJKPlayerDemo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0756E61F4ED9850049A17A /* IJKDemoSampleViewController.swift in Sources */,
 				DE4070FD1F4E6A7000083127 /* ViewController.swift in Sources */,
 				DE4070FB1F4E6A7000083127 /* AppDelegate.swift in Sources */,
+				DE0756F11F4FAD840049A17A /* IJKDemoHistoryItem.swift in Sources */,
+				DE0756E81F4F1E470049A17A /* IJKDemoInputURLViewController.swift in Sources */,
+				DE0756EA1F4F21180049A17A /* IJKQRCodeScanViewController.swift in Sources */,
+				DE4071411F4EA89F00083127 /* IJKPlayerViewController.swift in Sources */,
+				DE0756E21F4ED5520049A17A /* IJKDemoLocalFolderViewController.swift in Sources */,
+				DE0756F31F4FADB20049A17A /* IJKDemoMainViewController.swift in Sources */,
+				DE0756ED1F4F246A0049A17A /* Barcode.swift in Sources */,
+				DE40713F1F4EA63200083127 /* IJKMediaControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +428,7 @@
 			baseConfigurationReference = 6DCE7FDC06DE12FB1E4C4FE1 /* Pods-ijkplayer-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = "ijkplayer-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,6 +444,7 @@
 			baseConfigurationReference = 66AA1A8010D9A357BB60A2DE /* Pods-ijkplayer-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = "ijkplayer-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

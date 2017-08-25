@@ -1,11 +1,11 @@
 PODS:
-  - ijkplayer (0.8.2)
+  - ijkplayer (1.0.0)
 
 DEPENDENCIES:
   - ijkplayer
 
 SPEC CHECKSUMS:
-  ijkplayer: 3b2b0c447c821b261dbe4aa8ce2041939ae11232
+  ijkplayer: e0abdfb3d97bc126a5c40340f30f0af743679998
 
 PODFILE CHECKSUM: 2fc12dfafa16d9caed61985d9cebc4d4b87b20ed
 

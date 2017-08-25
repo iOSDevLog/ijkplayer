@@ -10,23 +10,23 @@
 		4F9AEE62C592DBB716BDC35F /* libPods-ijkplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A21BC6E074CD964337EF763 /* libPods-ijkplayer.a */; };
 		DE4070AE1F4DA81300083127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070AD1F4DA81300083127 /* main.m */; };
 		DE4070B11F4DA81400083127 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070B01F4DA81400083127 /* AppDelegate.m */; };
-		DE4070B41F4DA81400083127 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070B31F4DA81400083127 /* ViewController.m */; };
 		DE4070B91F4DA81400083127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4070B81F4DA81400083127 /* Assets.xcassets */; };
 		DE4070BC1F4DA81400083127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4070BA1F4DA81400083127 /* LaunchScreen.storyboard */; };
-		DE4070DA1F4E5CC000083127 /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070C61F4E5CBF00083127 /* IJKDemoHistory.m */; };
-		DE4070DB1F4E5CC000083127 /* IJKDemoInputURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070C81F4E5CBF00083127 /* IJKDemoInputURLViewController.m */; };
-		DE4070DC1F4E5CC000083127 /* IJKDemoInputURLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4070C91F4E5CBF00083127 /* IJKDemoInputURLViewController.xib */; };
-		DE4070DD1F4E5CC000083127 /* IJKDemoLocalFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070CB1F4E5CBF00083127 /* IJKDemoLocalFolderViewController.m */; };
-		DE4070DE1F4E5CC000083127 /* IJKDemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070CD1F4E5CC000083127 /* IJKDemoMainViewController.m */; };
-		DE4070DF1F4E5CC000083127 /* IJKDemoMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4070CE1F4E5CC000083127 /* IJKDemoMainViewController.xib */; };
-		DE4070E01F4E5CC000083127 /* IJKDemoSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070D01F4E5CC000083127 /* IJKDemoSampleViewController.m */; };
-		DE4070E11F4E5CC000083127 /* IJKDemoSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4070D11F4E5CC000083127 /* IJKDemoSampleViewController.xib */; };
-		DE4070E21F4E5CC000083127 /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070D31F4E5CC000083127 /* IJKMediaControl.m */; };
-		DE4070E31F4E5CC000083127 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070D51F4E5CC000083127 /* IJKMoviePlayerViewController.m */; };
-		DE4070E41F4E5CC000083127 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4070D61F4E5CC000083127 /* IJKMoviePlayerViewController.xib */; };
-		DE4070E51F4E5CC000083127 /* IJKQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070D81F4E5CC000083127 /* IJKQRCodeScanViewController.m */; };
-		DE4070E61F4E5CC000083127 /* IJKQRCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4070D91F4E5CC000083127 /* IJKQRCodeScanViewController.xib */; };
 		DE4070E91F4E5CD800083127 /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4070E81F4E5CD800083127 /* Barcode.m */; };
+		DE4071281F4EA0B600083127 /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071131F4EA0B600083127 /* IJKDemoHistory.m */; };
+		DE4071291F4EA0B600083127 /* IJKDemoInputURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071151F4EA0B600083127 /* IJKDemoInputURLViewController.m */; };
+		DE40712A1F4EA0B600083127 /* IJKDemoInputURLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4071161F4EA0B600083127 /* IJKDemoInputURLViewController.xib */; };
+		DE40712B1F4EA0B600083127 /* IJKDemoLocalFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071181F4EA0B600083127 /* IJKDemoLocalFolderViewController.m */; };
+		DE40712C1F4EA0B600083127 /* IJKDemoMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40711A1F4EA0B600083127 /* IJKDemoMainViewController.m */; };
+		DE40712D1F4EA0B600083127 /* IJKDemoMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE40711B1F4EA0B600083127 /* IJKDemoMainViewController.xib */; };
+		DE40712E1F4EA0B600083127 /* IJKDemoSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE40711D1F4EA0B600083127 /* IJKDemoSampleViewController.m */; };
+		DE40712F1F4EA0B600083127 /* IJKDemoSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE40711E1F4EA0B600083127 /* IJKDemoSampleViewController.xib */; };
+		DE4071301F4EA0B600083127 /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071201F4EA0B600083127 /* IJKMediaControl.m */; };
+		DE4071311F4EA0B600083127 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071231F4EA0B600083127 /* IJKMoviePlayerViewController.m */; };
+		DE4071321F4EA0B600083127 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4071241F4EA0B600083127 /* IJKMoviePlayerViewController.xib */; };
+		DE4071331F4EA0B600083127 /* IJKQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4071261F4EA0B600083127 /* IJKQRCodeScanViewController.m */; };
+		DE4071341F4EA0B600083127 /* IJKQRCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4071271F4EA0B600083127 /* IJKQRCodeScanViewController.xib */; };
+		DE4071391F4EA19F00083127 /* MoviePlayerImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4071381F4EA19F00083127 /* MoviePlayerImages.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,37 +37,36 @@
 		DE4070AD1F4DA81300083127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE4070AF1F4DA81400083127 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE4070B01F4DA81400083127 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DE4070B21F4DA81400083127 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DE4070B31F4DA81400083127 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE4070B81F4DA81400083127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4070BB1F4DA81400083127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4070BD1F4DA81400083127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE4070C41F4E5CBF00083127 /* IJKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKCommon.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKCommon.h"; sourceTree = "<group>"; };
-		DE4070C51F4E5CBF00083127 /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKDemoHistory.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoHistory.h"; sourceTree = "<group>"; };
-		DE4070C61F4E5CBF00083127 /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKDemoHistory.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoHistory.m"; sourceTree = "<group>"; };
-		DE4070C71F4E5CBF00083127 /* IJKDemoInputURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKDemoInputURLViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoInputURLViewController.h"; sourceTree = "<group>"; };
-		DE4070C81F4E5CBF00083127 /* IJKDemoInputURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKDemoInputURLViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoInputURLViewController.m"; sourceTree = "<group>"; };
-		DE4070C91F4E5CBF00083127 /* IJKDemoInputURLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKDemoInputURLViewController.xib; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoInputURLViewController.xib"; sourceTree = "<group>"; };
-		DE4070CA1F4E5CBF00083127 /* IJKDemoLocalFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKDemoLocalFolderViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoLocalFolderViewController.h"; sourceTree = "<group>"; };
-		DE4070CB1F4E5CBF00083127 /* IJKDemoLocalFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKDemoLocalFolderViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoLocalFolderViewController.m"; sourceTree = "<group>"; };
-		DE4070CC1F4E5CBF00083127 /* IJKDemoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKDemoMainViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoMainViewController.h"; sourceTree = "<group>"; };
-		DE4070CD1F4E5CC000083127 /* IJKDemoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKDemoMainViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoMainViewController.m"; sourceTree = "<group>"; };
-		DE4070CE1F4E5CC000083127 /* IJKDemoMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKDemoMainViewController.xib; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoMainViewController.xib"; sourceTree = "<group>"; };
-		DE4070CF1F4E5CC000083127 /* IJKDemoSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKDemoSampleViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoSampleViewController.h"; sourceTree = "<group>"; };
-		DE4070D01F4E5CC000083127 /* IJKDemoSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKDemoSampleViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoSampleViewController.m"; sourceTree = "<group>"; };
-		DE4070D11F4E5CC000083127 /* IJKDemoSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKDemoSampleViewController.xib; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKDemoSampleViewController.xib"; sourceTree = "<group>"; };
-		DE4070D21F4E5CC000083127 /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKMediaControl.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKMediaControl.h"; sourceTree = "<group>"; };
-		DE4070D31F4E5CC000083127 /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKMediaControl.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKMediaControl.m"; sourceTree = "<group>"; };
-		DE4070D41F4E5CC000083127 /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKMoviePlayerViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKMoviePlayerViewController.h"; sourceTree = "<group>"; };
-		DE4070D51F4E5CC000083127 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKMoviePlayerViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKMoviePlayerViewController.m"; sourceTree = "<group>"; };
-		DE4070D61F4E5CC000083127 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKMoviePlayerViewController.xib; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKMoviePlayerViewController.xib"; sourceTree = "<group>"; };
-		DE4070D71F4E5CC000083127 /* IJKQRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IJKQRCodeScanViewController.h; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKQRCodeScanViewController.h"; sourceTree = "<group>"; };
-		DE4070D81F4E5CC000083127 /* IJKQRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IJKQRCodeScanViewController.m; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKQRCodeScanViewController.m"; sourceTree = "<group>"; };
-		DE4070D91F4E5CC000083127 /* IJKQRCodeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = IJKQRCodeScanViewController.xib; path = "../../../../Users/iosdevlog/SourceTree/github/iOS/ijkplayer-ios/ios/IJKMediaDemo/IJKMediaDemo/IJKQRCodeScanViewController.xib"; sourceTree = "<group>"; };
 		DE4070E71F4E5CD800083127 /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
 		DE4070E81F4E5CD800083127 /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
 		DE4070EA1F4E5D9300083127 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DE4070EC1F4E5DB800083127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE4071111F4EA0B600083127 /* IJKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKCommon.h; sourceTree = "<group>"; };
+		DE4071121F4EA0B600083127 /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoHistory.h; sourceTree = "<group>"; };
+		DE4071131F4EA0B600083127 /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoHistory.m; sourceTree = "<group>"; };
+		DE4071141F4EA0B600083127 /* IJKDemoInputURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoInputURLViewController.h; sourceTree = "<group>"; };
+		DE4071151F4EA0B600083127 /* IJKDemoInputURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoInputURLViewController.m; sourceTree = "<group>"; };
+		DE4071161F4EA0B600083127 /* IJKDemoInputURLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoInputURLViewController.xib; sourceTree = "<group>"; };
+		DE4071171F4EA0B600083127 /* IJKDemoLocalFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoLocalFolderViewController.h; sourceTree = "<group>"; };
+		DE4071181F4EA0B600083127 /* IJKDemoLocalFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoLocalFolderViewController.m; sourceTree = "<group>"; };
+		DE4071191F4EA0B600083127 /* IJKDemoMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoMainViewController.h; sourceTree = "<group>"; };
+		DE40711A1F4EA0B600083127 /* IJKDemoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoMainViewController.m; sourceTree = "<group>"; };
+		DE40711B1F4EA0B600083127 /* IJKDemoMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoMainViewController.xib; sourceTree = "<group>"; };
+		DE40711C1F4EA0B600083127 /* IJKDemoSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoSampleViewController.h; sourceTree = "<group>"; };
+		DE40711D1F4EA0B600083127 /* IJKDemoSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoSampleViewController.m; sourceTree = "<group>"; };
+		DE40711E1F4EA0B600083127 /* IJKDemoSampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKDemoSampleViewController.xib; sourceTree = "<group>"; };
+		DE40711F1F4EA0B600083127 /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMediaControl.h; sourceTree = "<group>"; };
+		DE4071201F4EA0B600083127 /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMediaControl.m; sourceTree = "<group>"; };
+		DE4071221F4EA0B600083127 /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
+		DE4071231F4EA0B600083127 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
+		DE4071241F4EA0B600083127 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		DE4071251F4EA0B600083127 /* IJKQRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKQRCodeScanViewController.h; sourceTree = "<group>"; };
+		DE4071261F4EA0B600083127 /* IJKQRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKQRCodeScanViewController.m; sourceTree = "<group>"; };
+		DE4071271F4EA0B600083127 /* IJKQRCodeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKQRCodeScanViewController.xib; sourceTree = "<group>"; };
+		DE4071381F4EA19F00083127 /* MoviePlayerImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MoviePlayerImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,37 +121,9 @@
 		DE4070AB1F4DA81300083127 /* ijkplayer */ = {
 			isa = PBXGroup;
 			children = (
-				DE4070C41F4E5CBF00083127 /* IJKCommon.h */,
-				DE4070E71F4E5CD800083127 /* Barcode.h */,
-				DE4070E81F4E5CD800083127 /* Barcode.m */,
-				DE4070C51F4E5CBF00083127 /* IJKDemoHistory.h */,
-				DE4070C61F4E5CBF00083127 /* IJKDemoHistory.m */,
-				DE4070C71F4E5CBF00083127 /* IJKDemoInputURLViewController.h */,
-				DE4070C81F4E5CBF00083127 /* IJKDemoInputURLViewController.m */,
-				DE4070C91F4E5CBF00083127 /* IJKDemoInputURLViewController.xib */,
-				DE4070CA1F4E5CBF00083127 /* IJKDemoLocalFolderViewController.h */,
-				DE4070CB1F4E5CBF00083127 /* IJKDemoLocalFolderViewController.m */,
-				DE4070CC1F4E5CBF00083127 /* IJKDemoMainViewController.h */,
-				DE4070CD1F4E5CC000083127 /* IJKDemoMainViewController.m */,
-				DE4070CE1F4E5CC000083127 /* IJKDemoMainViewController.xib */,
-				DE4070CF1F4E5CC000083127 /* IJKDemoSampleViewController.h */,
-				DE4070D01F4E5CC000083127 /* IJKDemoSampleViewController.m */,
-				DE4070D11F4E5CC000083127 /* IJKDemoSampleViewController.xib */,
-				DE4070D21F4E5CC000083127 /* IJKMediaControl.h */,
-				DE4070D31F4E5CC000083127 /* IJKMediaControl.m */,
-				DE4070D41F4E5CC000083127 /* IJKMoviePlayerViewController.h */,
-				DE4070D51F4E5CC000083127 /* IJKMoviePlayerViewController.m */,
-				DE4070D61F4E5CC000083127 /* IJKMoviePlayerViewController.xib */,
-				DE4070D71F4E5CC000083127 /* IJKQRCodeScanViewController.h */,
-				DE4070D81F4E5CC000083127 /* IJKQRCodeScanViewController.m */,
-				DE4070D91F4E5CC000083127 /* IJKQRCodeScanViewController.xib */,
-				DE4070AF1F4DA81400083127 /* AppDelegate.h */,
-				DE4070B01F4DA81400083127 /* AppDelegate.m */,
-				DE4070B21F4DA81400083127 /* ViewController.h */,
-				DE4070B31F4DA81400083127 /* ViewController.m */,
-				DE4070B81F4DA81400083127 /* Assets.xcassets */,
-				DE4070BA1F4DA81400083127 /* LaunchScreen.storyboard */,
-				DE4070BD1F4DA81400083127 /* Info.plist */,
+				DE4071361F4EA10100083127 /* Misc */,
+				DE4071351F4EA0D500083127 /* Controller */,
+				DE4071371F4EA12600083127 /* AppDelegate */,
 				DE4070AC1F4DA81300083127 /* Supporting Files */,
 			);
 			path = ijkplayer;
@@ -161,9 +132,60 @@
 		DE4070AC1F4DA81300083127 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE4071381F4EA19F00083127 /* MoviePlayerImages.xcassets */,
 				DE4070AD1F4DA81300083127 /* main.m */,
+				DE4070B81F4DA81400083127 /* Assets.xcassets */,
+				DE4070BA1F4DA81400083127 /* LaunchScreen.storyboard */,
+				DE4070BD1F4DA81400083127 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE4071351F4EA0D500083127 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE4071141F4EA0B600083127 /* IJKDemoInputURLViewController.h */,
+				DE4071151F4EA0B600083127 /* IJKDemoInputURLViewController.m */,
+				DE4071161F4EA0B600083127 /* IJKDemoInputURLViewController.xib */,
+				DE4071171F4EA0B600083127 /* IJKDemoLocalFolderViewController.h */,
+				DE4071181F4EA0B600083127 /* IJKDemoLocalFolderViewController.m */,
+				DE4071191F4EA0B600083127 /* IJKDemoMainViewController.h */,
+				DE40711A1F4EA0B600083127 /* IJKDemoMainViewController.m */,
+				DE40711B1F4EA0B600083127 /* IJKDemoMainViewController.xib */,
+				DE40711C1F4EA0B600083127 /* IJKDemoSampleViewController.h */,
+				DE40711D1F4EA0B600083127 /* IJKDemoSampleViewController.m */,
+				DE40711E1F4EA0B600083127 /* IJKDemoSampleViewController.xib */,
+				DE40711F1F4EA0B600083127 /* IJKMediaControl.h */,
+				DE4071201F4EA0B600083127 /* IJKMediaControl.m */,
+				DE4071221F4EA0B600083127 /* IJKMoviePlayerViewController.h */,
+				DE4071231F4EA0B600083127 /* IJKMoviePlayerViewController.m */,
+				DE4071241F4EA0B600083127 /* IJKMoviePlayerViewController.xib */,
+				DE4071251F4EA0B600083127 /* IJKQRCodeScanViewController.h */,
+				DE4071261F4EA0B600083127 /* IJKQRCodeScanViewController.m */,
+				DE4071271F4EA0B600083127 /* IJKQRCodeScanViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DE4071361F4EA10100083127 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				DE4071111F4EA0B600083127 /* IJKCommon.h */,
+				DE4071121F4EA0B600083127 /* IJKDemoHistory.h */,
+				DE4071131F4EA0B600083127 /* IJKDemoHistory.m */,
+				DE4070E71F4E5CD800083127 /* Barcode.h */,
+				DE4070E81F4E5CD800083127 /* Barcode.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		DE4071371F4EA12600083127 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DE4070AF1F4DA81400083127 /* AppDelegate.h */,
+				DE4070B01F4DA81400083127 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,13 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4070E61F4E5CC000083127 /* IJKQRCodeScanViewController.xib in Resources */,
-				DE4070DF1F4E5CC000083127 /* IJKDemoMainViewController.xib in Resources */,
+				DE40712A1F4EA0B600083127 /* IJKDemoInputURLViewController.xib in Resources */,
+				DE4071391F4EA19F00083127 /* MoviePlayerImages.xcassets in Resources */,
+				DE40712D1F4EA0B600083127 /* IJKDemoMainViewController.xib in Resources */,
+				DE4071321F4EA0B600083127 /* IJKMoviePlayerViewController.xib in Resources */,
+				DE4071341F4EA0B600083127 /* IJKQRCodeScanViewController.xib in Resources */,
 				DE4070BC1F4DA81400083127 /* LaunchScreen.storyboard in Resources */,
-				DE4070DC1F4E5CC000083127 /* IJKDemoInputURLViewController.xib in Resources */,
 				DE4070B91F4DA81400083127 /* Assets.xcassets in Resources */,
-				DE4070E11F4E5CC000083127 /* IJKDemoSampleViewController.xib in Resources */,
-				DE4070E41F4E5CC000083127 /* IJKMoviePlayerViewController.xib in Resources */,
+				DE40712F1F4EA0B600083127 /* IJKDemoSampleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,18 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4070E21F4E5CC000083127 /* IJKMediaControl.m in Sources */,
-				DE4070DA1F4E5CC000083127 /* IJKDemoHistory.m in Sources */,
-				DE4070DB1F4E5CC000083127 /* IJKDemoInputURLViewController.m in Sources */,
-				DE4070B41F4DA81400083127 /* ViewController.m in Sources */,
 				DE4070E91F4E5CD800083127 /* Barcode.m in Sources */,
+				DE4071281F4EA0B600083127 /* IJKDemoHistory.m in Sources */,
 				DE4070B11F4DA81400083127 /* AppDelegate.m in Sources */,
-				DE4070E01F4E5CC000083127 /* IJKDemoSampleViewController.m in Sources */,
-				DE4070DE1F4E5CC000083127 /* IJKDemoMainViewController.m in Sources */,
-				DE4070E31F4E5CC000083127 /* IJKMoviePlayerViewController.m in Sources */,
-				DE4070DD1F4E5CC000083127 /* IJKDemoLocalFolderViewController.m in Sources */,
-				DE4070E51F4E5CC000083127 /* IJKQRCodeScanViewController.m in Sources */,
 				DE4070AE1F4DA81300083127 /* main.m in Sources */,
+				DE40712E1F4EA0B600083127 /* IJKDemoSampleViewController.m in Sources */,
+				DE40712C1F4EA0B600083127 /* IJKDemoMainViewController.m in Sources */,
+				DE40712B1F4EA0B600083127 /* IJKDemoLocalFolderViewController.m in Sources */,
+				DE4071331F4EA0B600083127 /* IJKQRCodeScanViewController.m in Sources */,
+				DE4071291F4EA0B600083127 /* IJKDemoInputURLViewController.m in Sources */,
+				DE4071301F4EA0B600083127 /* IJKMediaControl.m in Sources */,
+				DE4071311F4EA0B600083127 /* IJKMoviePlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
