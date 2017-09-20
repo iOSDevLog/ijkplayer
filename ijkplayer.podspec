@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "ijkplayer"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "ijkplayer framework."
 
   s.description  = <<-DESC
-bilibili/ijkplayer  IJKMediaFramework 上传到 cococapods
+bilibili/ijkplayer k0.8.3  IJKMediaFramework 上传到 cococapods
                    DESC
 
   s.homepage     = "https://github.com/iOSDevLog/ijkplayer"

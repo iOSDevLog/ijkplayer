@@ -61,17 +61,17 @@ class IJKQRCodeScanViewController: UIViewController, AVCaptureMetadataOutputObje
             return
         }
         captureSession = AVCaptureSession()
-        videoInput = try? AVCaptureDeviceInput(device: videoDevice ?? AVCaptureDevice())
-        if (captureSession?.canAddInput(videoInput ?? AVCaptureInput()))! {
-            captureSession?.addInput(videoInput ?? AVCaptureInput())
+        videoInput = try? AVCaptureDeviceInput(device: videoDevice)
+        if (captureSession?.canAddInput(videoInput))! {
+            captureSession?.addInput(videoInput)
         }
         previewLayer = AVCaptureVideoPreviewLayer(session: captureSession ?? AVCaptureSession())
         previewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
         // capture and process the metadata
         metadataOutput = AVCaptureMetadataOutput()
         metadataOutput?.setMetadataObjectsDelegate(self as AVCaptureMetadataOutputObjectsDelegate, queue: DispatchQueue.main)
-        if (captureSession?.canAddOutput(metadataOutput ?? AVCaptureOutput()))! {
-            captureSession?.addOutput(metadataOutput ?? AVCaptureOutput())
+        if (captureSession?.canAddOutput(metadataOutput))! {
+            captureSession?.addOutput(metadataOutput)
         }
     }
     
