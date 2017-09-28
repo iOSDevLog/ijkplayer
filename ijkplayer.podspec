@@ -21,7 +21,7 @@ bilibili/ijkplayer k0.8.3  IJKMediaFramework 上传到 cococapods
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/archive/1.0.0.zip" }
+  s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/archive/1.1.0-s.zip" }
 
   s.vendored_frameworks = 'IJKMediaFramework.framework'
 
