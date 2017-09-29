@@ -31,14 +31,14 @@ platform :ios, '8.0'
 use_frameworks!
 ```
 
-1. 添加 *Project*-Bridge-Header.h。 -> "#import <IJKMediaFramework/IJKMediaFramework.h>"
+1. 添加 *Project*-Bridge-Header.h -> "#import <IJKMediaFramework/IJKMediaFramework.h>"
 1. Build Settings -> Ojbective-C Bridging Header -> "*Project*/*Project*-Bridge-Header.h"
 
 # Contributors
 
-![Superbil](https://github.com/Superbil)
+[Superbil](https://github.com/Superbil)
 
-![all](https://github.com/iOSDevLog/ijkplayer/graphs/contributors)
+[all](https://github.com/iOSDevLog/ijkplayer/graphs/contributors)
 
 # LICENSE
 
