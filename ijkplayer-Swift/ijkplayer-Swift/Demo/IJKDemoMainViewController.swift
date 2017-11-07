@@ -22,7 +22,7 @@ class IJKDemoMainViewController: UIViewController, UITableViewDataSource, UITabl
         self.tableView.delegate = self
         tableViewCellTitles = ["Local Folder", "Movie Picker", "Input URL", "Scan QRCode", "Online Samples"]
         let documentsUrl: URL? = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-        try? NSURL(string: (documentsUrl?.absoluteString)!)?.setResourceValue(Int(true), forKey: .isExcludedFromBackupKey)
+        try? NSURL(string: (documentsUrl?.absoluteString)!)?.setResourceValue(Int(truncating: true), forKey: .isExcludedFromBackupKey)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -145,7 +145,7 @@ class IJKDemoMainViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        dismiss(animated: true) { _ in }
+        dismiss(animated: true, completion: nil)
     }
     
     // MARK: misc
@@ -163,7 +163,7 @@ class IJKDemoMainViewController: UIViewController, UITableViewDataSource, UITabl
         // trimming movies. To instead show the controls, use YES.
         mediaUI.allowsEditing = false
         mediaUI.delegate = delegate
-        controller.present(mediaUI, animated: true) { _ in }
+        controller.present(mediaUI, animated: true)
         return true
     }
 }

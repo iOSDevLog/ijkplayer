@@ -222,6 +222,7 @@
 				TargetAttributes = {
 					DE4070A81F4DA81300083127 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U42NM79F4W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -443,7 +444,7 @@
 			baseConfigurationReference = CD176374D33C6F3F5F4CC0C2 /* Pods-ijkplayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = ijkplayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -457,7 +458,7 @@
 			baseConfigurationReference = B9A118765EB1C5378112B817 /* Pods-ijkplayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = U42NM79F4W;
 				INFOPLIST_FILE = ijkplayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -20,21 +20,21 @@ class Barcode: NSObject {
         // 1 create the obj
         let barcode = Barcode()
         // 2 store code type and string
-        barcode.barcodeType = code.type
-        barcode.barcodeData = code.stringValue
+        barcode.barcodeType = code.type.rawValue
+        barcode.barcodeData = code.stringValue!
         barcode.metadataObject = code
         // 3 & 4 Create the path joining code's corners
         let cornersPath: CGMutablePath = CGMutablePath()
         // 5 Make point
         var point: CGPoint
-        let dictionary = (code.corners![0] as! CGPoint).dictionaryRepresentation
+        let dictionary = (code.corners[0] ).dictionaryRepresentation
 
         point = CGPoint(dictionaryRepresentation: dictionary)!
         // 6 Make path
         cornersPath.move(to: CGPoint(x: point.x, y: point.y), transform: .identity)
         // 7
         for i in 1..<code.corners.count {
-            point = CGPoint(dictionaryRepresentation: code.corners![i] as! CFDictionary)!
+            point = CGPoint(dictionaryRepresentation: code.corners[i] as! CFDictionary)!
             cornersPath.addLine(to: CGPoint(x: point.x, y: point.y), transform: .identity)
         }
         // 8 Finish box

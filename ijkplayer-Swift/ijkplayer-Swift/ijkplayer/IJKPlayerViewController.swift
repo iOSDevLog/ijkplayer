@@ -129,7 +129,7 @@ class IJKPlayerViewController: UIViewController {
     }
     
     @IBAction func onClickDone(_ sender: Any) {
-        presentingViewController?.dismiss(animated: true) { _ in }
+        presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func onClickPlay(_ sender: Any) {
@@ -163,7 +163,7 @@ class IJKPlayerViewController: UIViewController {
         mediaControl.continueDragMediaSlider()
     }
     
-    func loadStateDidChange(_ notification: Notification) {
+    @objc func loadStateDidChange(_ notification: Notification) {
         //    MPMovieLoadStateUnknown        = 0,
         //    MPMovieLoadStatePlayable       = 1 << 0,
         //    MPMovieLoadStatePlaythroughOK  = 1 << 1, // Playback will be automatically started in this state when shouldAutoplay is YES
@@ -181,7 +181,7 @@ class IJKPlayerViewController: UIViewController {
         }
         
     }
-    func moviePlayBackDidFinish(_ notification: Notification) {
+    @objc func moviePlayBackDidFinish(_ notification: Notification) {
         //    MPMovieFinishReasonPlaybackEnded,
         //    MPMovieFinishReasonPlaybackError,
         //    MPMovieFinishReasonUserExited
@@ -199,11 +199,11 @@ class IJKPlayerViewController: UIViewController {
         
     }
     
-    func mediaIsPreparedToPlayDidChange(notification: Notification) {
+    @objc func mediaIsPreparedToPlayDidChange(notification: Notification) {
         print("mediaIsPreparedToPlayDidChange\n")
     }
     
-    func moviePlayBackStateDidChange(_ notification: Notification) {
+    @objc func moviePlayBackStateDidChange(_ notification: Notification) {
         //    MPMoviePlaybackStateStopped,
         //    MPMoviePlaybackStatePlaying,
         //    MPMoviePlaybackStatePaused,

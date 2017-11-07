@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2hR-lX-kkR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2hR-lX-kkR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,10 +14,6 @@
         <scene sceneID="DS8-jO-6eo">
             <objects>
                 <viewController storyboardIdentifier="IJKDemoMainViewController" automaticallyAdjustsScrollViewInsets="NO" id="Uhc-Oz-IIL" customClass="IJKDemoMainViewController" customModule="ijkplayer_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2tT-oc-KRc"/>
-                        <viewControllerLayoutGuide type="bottom" id="HJb-7s-VwJ"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kAS-Zw-Dgk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,11 +44,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8Qj-xl-7EI" firstAttribute="leading" secondItem="kAS-Zw-Dgk" secondAttribute="leading" id="IRK-NF-iiz"/>
-                            <constraint firstItem="HJb-7s-VwJ" firstAttribute="top" secondItem="8Qj-xl-7EI" secondAttribute="bottom" id="YkS-sB-ney"/>
-                            <constraint firstAttribute="trailing" secondItem="8Qj-xl-7EI" secondAttribute="trailing" id="apK-lX-LjH"/>
-                            <constraint firstItem="8Qj-xl-7EI" firstAttribute="top" secondItem="2tT-oc-KRc" secondAttribute="bottom" id="wp7-fe-98w"/>
+                            <constraint firstItem="8Qj-xl-7EI" firstAttribute="leading" secondItem="GaU-nl-q9w" secondAttribute="leading" id="IRK-NF-iiz"/>
+                            <constraint firstItem="GaU-nl-q9w" firstAttribute="bottom" secondItem="8Qj-xl-7EI" secondAttribute="bottom" id="YkS-sB-ney"/>
+                            <constraint firstItem="GaU-nl-q9w" firstAttribute="trailing" secondItem="8Qj-xl-7EI" secondAttribute="trailing" id="apK-lX-LjH"/>
+                            <constraint firstItem="8Qj-xl-7EI" firstAttribute="top" secondItem="GaU-nl-q9w" secondAttribute="top" id="wp7-fe-98w"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="GaU-nl-q9w"/>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="YiB-5S-rdh"/>
                     <connections>
@@ -98,10 +96,6 @@
         <scene sceneID="VkR-bf-r6l">
             <objects>
                 <viewController storyboardIdentifier="IJKDemoSampleViewController" title="Sample" automaticallyAdjustsScrollViewInsets="NO" id="p1R-2O-Jou" customClass="IJKDemoSampleViewController" customModule="ijkplayer_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nPb-Jz-a9Q"/>
-                        <viewControllerLayoutGuide type="bottom" id="R1o-3c-Af3"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Fj2-oZ-FUy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,11 +130,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="R1o-3c-Af3" firstAttribute="top" secondItem="Tn1-AS-rsN" secondAttribute="bottom" id="bvt-i5-CNF"/>
-                            <constraint firstAttribute="trailing" secondItem="Tn1-AS-rsN" secondAttribute="trailing" id="hBI-LG-YnF"/>
-                            <constraint firstItem="Tn1-AS-rsN" firstAttribute="top" secondItem="nPb-Jz-a9Q" secondAttribute="bottom" id="y69-o0-Z6R"/>
-                            <constraint firstItem="Tn1-AS-rsN" firstAttribute="leading" secondItem="Fj2-oZ-FUy" secondAttribute="leading" id="yUZ-fG-ETl"/>
+                            <constraint firstItem="t2L-bP-twL" firstAttribute="bottom" secondItem="Tn1-AS-rsN" secondAttribute="bottom" id="bvt-i5-CNF"/>
+                            <constraint firstItem="t2L-bP-twL" firstAttribute="trailing" secondItem="Tn1-AS-rsN" secondAttribute="trailing" id="hBI-LG-YnF"/>
+                            <constraint firstItem="Tn1-AS-rsN" firstAttribute="top" secondItem="t2L-bP-twL" secondAttribute="top" id="y69-o0-Z6R"/>
+                            <constraint firstItem="Tn1-AS-rsN" firstAttribute="leading" secondItem="t2L-bP-twL" secondAttribute="leading" id="yUZ-fG-ETl"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="t2L-bP-twL"/>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="Tn1-AS-rsN" id="Yic-1p-mI8"/>
@@ -154,10 +149,6 @@
         <scene sceneID="XJh-NA-K6T">
             <objects>
                 <viewController storyboardIdentifier="IJKDemoInputURLViewController" title="URL" automaticallyAdjustsScrollViewInsets="NO" id="Blx-xG-zZD" customClass="IJKDemoInputURLViewController" customModule="ijkplayer_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zQA-Ky-qYQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="2cd-Da-uhy"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vzy-AE-zys">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -174,10 +165,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="sDb-lR-1Ok" secondAttribute="trailing" constant="16" id="HBT-Wq-h69"/>
-                            <constraint firstItem="sDb-lR-1Ok" firstAttribute="leading" secondItem="vzy-AE-zys" secondAttribute="leading" constant="16" id="fi6-cm-a9P"/>
-                            <constraint firstItem="sDb-lR-1Ok" firstAttribute="top" secondItem="zQA-Ky-qYQ" secondAttribute="bottom" constant="16" id="ido-ts-oJg"/>
+                            <constraint firstItem="9Sx-VG-aj0" firstAttribute="trailing" secondItem="sDb-lR-1Ok" secondAttribute="trailing" constant="16" id="HBT-Wq-h69"/>
+                            <constraint firstItem="sDb-lR-1Ok" firstAttribute="leading" secondItem="9Sx-VG-aj0" secondAttribute="leading" constant="16" id="fi6-cm-a9P"/>
+                            <constraint firstItem="sDb-lR-1Ok" firstAttribute="top" secondItem="9Sx-VG-aj0" secondAttribute="top" constant="16" id="ido-ts-oJg"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Sx-VG-aj0"/>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -193,10 +185,6 @@
         <scene sceneID="Ru8-NB-Rjv">
             <objects>
                 <viewController storyboardIdentifier="IJKQRCodeScanViewController" title="QrCode" id="voj-Ur-lIO" customClass="IJKQRCodeScanViewController" customModule="ijkplayer_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BJJ-RY-NWD"/>
-                        <viewControllerLayoutGuide type="bottom" id="ayA-S3-cTh"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="H1I-cD-tvf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,11 +196,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mXZ-oH-YJp" firstAttribute="leading" secondItem="H1I-cD-tvf" secondAttribute="leading" id="3V8-5E-Eg8"/>
-                            <constraint firstAttribute="trailing" secondItem="mXZ-oH-YJp" secondAttribute="trailing" id="Azd-Re-H5Q"/>
-                            <constraint firstItem="ayA-S3-cTh" firstAttribute="top" secondItem="mXZ-oH-YJp" secondAttribute="bottom" id="Bko-Ia-8No"/>
-                            <constraint firstItem="mXZ-oH-YJp" firstAttribute="top" secondItem="BJJ-RY-NWD" secondAttribute="bottom" id="Qcm-U4-b1s"/>
+                            <constraint firstItem="mXZ-oH-YJp" firstAttribute="leading" secondItem="j9B-XU-vex" secondAttribute="leading" id="3V8-5E-Eg8"/>
+                            <constraint firstItem="j9B-XU-vex" firstAttribute="trailing" secondItem="mXZ-oH-YJp" secondAttribute="trailing" id="Azd-Re-H5Q"/>
+                            <constraint firstItem="j9B-XU-vex" firstAttribute="bottom" secondItem="mXZ-oH-YJp" secondAttribute="bottom" id="Bko-Ia-8No"/>
+                            <constraint firstItem="mXZ-oH-YJp" firstAttribute="top" secondItem="j9B-XU-vex" secondAttribute="top" id="Qcm-U4-b1s"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="j9B-XU-vex"/>
                     </view>
                     <connections>
                         <outlet property="previewView" destination="mXZ-oH-YJp" id="WD9-Vw-6bE"/>
@@ -227,7 +216,7 @@
             <objects>
                 <navigationController id="2hR-lX-kkR" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9b4-6w-Eik">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

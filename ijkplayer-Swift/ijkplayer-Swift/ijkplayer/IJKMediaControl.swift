@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class IJKMediaControl: UIControl {
     
     weak var delegatePlayer: IJKMediaPlayback?
@@ -40,12 +39,12 @@ class IJKMediaControl: UIControl {
         perform(#selector(self.hide), with: nil, afterDelay: 5)
     }
     
-    func hide() {
+    @objc func hide() {
         overlayPanel.isHidden = true
         cancelDelayedHide()
     }
     
-    func refreshMediaControl() {
+    @objc func refreshMediaControl() {
         guard delegatePlayer != nil else {
             return
         }

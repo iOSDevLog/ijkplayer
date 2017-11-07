@@ -6,6 +6,6 @@ target 'ijkplayer' do
   # use_frameworks!
 
   # Pods for ijkplayer
-  pod 'ijkplayer'
+  pod 'ijkplayer', :path => '../'
 
 end

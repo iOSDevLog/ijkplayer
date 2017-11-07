@@ -56,22 +56,22 @@ class IJKQRCodeScanViewController: UIViewController, AVCaptureMetadataOutputObje
         if captureSession != nil {
             return
         }
-        videoDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
+        videoDevice = AVCaptureDevice.default(for: AVMediaType.video)
         if videoDevice == nil {
             return
         }
         captureSession = AVCaptureSession()
-        videoInput = try? AVCaptureDeviceInput(device: videoDevice)
-        if (captureSession?.canAddInput(videoInput))! {
-            captureSession?.addInput(videoInput)
+        videoInput = try? AVCaptureDeviceInput(device: videoDevice!)
+        if (captureSession?.canAddInput(videoInput!))! {
+            captureSession?.addInput(videoInput!)
         }
         previewLayer = AVCaptureVideoPreviewLayer(session: captureSession ?? AVCaptureSession())
-        previewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
+        previewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
         // capture and process the metadata
         metadataOutput = AVCaptureMetadataOutput()
         metadataOutput?.setMetadataObjectsDelegate(self as AVCaptureMetadataOutputObjectsDelegate, queue: DispatchQueue.main)
-        if (captureSession?.canAddOutput(metadataOutput))! {
-            captureSession?.addOutput(metadataOutput)
+        if (captureSession?.canAddOutput(metadataOutput!))! {
+            captureSession?.addOutput(metadataOutput!)
         }
     }
     
@@ -96,7 +96,7 @@ class IJKQRCodeScanViewController: UIViewController, AVCaptureMetadataOutputObje
             return
         }
         captureSession?.startRunning()
-        metadataOutput?.metadataObjectTypes = [AVMetadataObjectTypeQRCode]
+        metadataOutput?.metadataObjectTypes = [AVMetadataObject.ObjectType.qr]
         //_metadataOutput.availableMetadataObjectTypes;
         running = true
     }
@@ -109,16 +109,16 @@ class IJKQRCodeScanViewController: UIViewController, AVCaptureMetadataOutputObje
         running = false
     }
     
-    func applicationWillEnterForeground(_ note: Notification) {
+    @objc func applicationWillEnterForeground(_ note: Notification) {
         startRunning()
     }
     
-    func applicationDidEnterBackground(_ note: Notification) {
+    @objc func applicationDidEnterBackground(_ note: Notification) {
         stopRunning()
     }
     
     // MARK: - Delegate functions
-    func captureOutput(_ captureOutput: AVCaptureOutput!, didOutputMetadataObjects metadataObjects: [Any]!, from connection: AVCaptureConnection!) {
+    func metadataOutput(_ captureOutput: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
         (metadataObjects as NSArray).enumerateObjects({
             (enumItem, idx, stop) -> Void in
             let obj = enumItem as! AVMetadataObject

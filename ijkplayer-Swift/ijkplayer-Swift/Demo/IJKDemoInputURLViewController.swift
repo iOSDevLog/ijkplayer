@@ -27,7 +27,7 @@ class IJKDemoInputURLViewController: UIViewController, UITextViewDelegate {
         textView.text = m3u8
     }
     
-    func onClickPlayButton() {
+    @objc func onClickPlayButton() {
         let url = URL(string: textView.text)
         let scheme: String? = url?.scheme?.lowercased()
         if (scheme == "http") || (scheme == "https") || (scheme == "rtmp") {
