@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = "ijkplayer"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "ijkplayer framework."
 
   s.description  = <<-DESC
-bilibili/ijkplayer k0.8.3  IJKMediaFramework 上传到 cococapods
+bilibili/ijkplayer k0.8.4  IJKMediaFramework 上传到 cococapods
                    DESC
 
   s.homepage     = "https://github.com/iOSDevLog/ijkplayer"
@@ -21,7 +21,8 @@ bilibili/ijkplayer k0.8.3  IJKMediaFramework 上传到 cococapods
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFramework.framework.zip" }
+  # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
   s.vendored_frameworks = 'IJKMediaFramework.framework'
 

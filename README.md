@@ -1,10 +1,12 @@
 # ijkplayer
 
-[Bilibili/ijkplayer 0.8.3](https://github.com/Bilibili/ijkplayer) cocoapods,iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
+[Bilibili/ijkplayer 0.8.4](https://github.com/Bilibili/ijkplayer) cocoapods,iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
 
 # screenshot
 
 ![Portrait](screenshot/Portrait.png)
+
+![PortraitNoControl](screenshot/PortraitNoControl.png)
 
 ![playUrl](screenshot/playUrl.png)
 
@@ -27,7 +29,7 @@ platform :ios, '7.0'
 ## Swift
 
 ```ruby
-platform :ios, '8.0'
+platform :ios, '9.0' # Use Safe Area Layout Guides
 use_frameworks!
 ```
 
