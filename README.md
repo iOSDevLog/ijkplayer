@@ -15,7 +15,7 @@
 # usage
 
 ```ruby
-pod 'ijkplayer', '~> 1.1.0'
+pod 'ijkplayer', '~> 1.1.3'
 ```
 
 OC 参考ijkplayer项目，Swift 参考ijkplayer-Swift项目。

@@ -199,8 +199,6 @@
 				DE4070A51F4DA81300083127 /* Sources */,
 				DE4070A61F4DA81300083127 /* Frameworks */,
 				DE4070A71F4DA81300083127 /* Resources */,
-				5DAF1D63E424BEE08F1C603B /* [CP] Embed Pods Frameworks */,
-				5CE2F27AB58A2BE564D76DCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,36 +262,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5CE2F27AB58A2BE564D76DCF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ijkplayer/Pods-ijkplayer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5DAF1D63E424BEE08F1C603B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ijkplayer/Pods-ijkplayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CB255092F5C3E9FA755629E7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
