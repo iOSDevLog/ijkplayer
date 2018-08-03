@@ -1,6 +1,6 @@
 # ijkplayer
 
-[Bilibili/ijkplayer 0.8.4](https://github.com/Bilibili/ijkplayer) cocoapods,iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
+[Bilibili/ijkplayer 0.8.8](https://github.com/Bilibili/ijkplayer) cocoapods,iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
 
 # screenshot
 
