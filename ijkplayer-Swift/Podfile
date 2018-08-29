@@ -6,6 +6,6 @@ target 'ijkplayer-Swift' do
   use_frameworks!
 
   # Pods for ijkplayer-Swift
-  pod 'ijkplayer', :path => '../'
+  pod 'ijkplayerssl', :path => '../'
 
 end

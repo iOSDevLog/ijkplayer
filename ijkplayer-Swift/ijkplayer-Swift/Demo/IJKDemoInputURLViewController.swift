@@ -10,7 +10,7 @@ import UIKit
 
 class IJKDemoInputURLViewController: UIViewController, UITextViewDelegate {
     let rtmp = "rtmp://live.hkstv.hk.lxdns.com/live/hks"
-    let m3u8 = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"
+    let m3u8 = "https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8"
     
     @IBOutlet weak var textView: UITextView!
     override func viewDidLoad() {
