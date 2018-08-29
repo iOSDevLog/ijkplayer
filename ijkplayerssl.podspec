@@ -19,7 +19,7 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework ssl 上传到 cococapods
   s.author             = { "iosdevlog" => "iosdevlog@iosdevlog.com" }
   s.social_media_url   = "http://weibo.com/iOSDevLog"
 
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFrameworkWithSSL.framework.zip" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }

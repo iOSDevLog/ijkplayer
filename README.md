@@ -18,7 +18,7 @@
 pod 'ijkplayer', '~> 1.1.3'
 ``````
 
-or with SSL
+or with SSL iOS 8.0 no armv7,armv7s
 
 ```
 pod 'ijkplayerssl', '~> 1.1.3'
