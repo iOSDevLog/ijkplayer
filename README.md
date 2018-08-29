@@ -39,7 +39,7 @@ platform :ios, '9.0' # Use Safe Area Layout Guides
 use_frameworks!
 ```
 
-1. 添加 *Project*-Bridge-Header.h -> "#import <IJKMediaFramework/IJKMediaFramework.h>"
+1. 添加 *Project*-Bridge-Header.h -> "#import <IJKMediaFrameworkWithSSL/IJKMediaFrameworkWithSSL.h>"
 1. Build Settings -> Ojbective-C Bridging Header -> "*Project*/*Project*-Bridge-Header.h"
 
 # Contributors
@@ -47,6 +47,12 @@ use_frameworks!
 [Superbil](https://github.com/Superbil)
 
 [all](https://github.com/iOSDevLog/ijkplayer/graphs/contributors)
+
+# Archive
+
+fat framework
+
+<https://github.com/iOSDevLog/ijkplayer/issues/6>
 
 # LICENSE
 

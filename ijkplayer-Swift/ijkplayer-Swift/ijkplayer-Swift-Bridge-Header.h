@@ -6,4 +6,4 @@
 //  Copyright © 2017年 iOSDevLog. All rights reserved.
 //
 
-#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <IJKMediaFrameworkWithSSL/IJKMediaFrameworkWithSSL.h>
