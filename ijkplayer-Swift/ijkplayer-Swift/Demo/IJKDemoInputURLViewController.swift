@@ -11,6 +11,7 @@ import UIKit
 class IJKDemoInputURLViewController: UIViewController, UITextViewDelegate {
     let rtmp = "rtmp://live.hkstv.hk.lxdns.com/live/hks"
     let m3u8 = "https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8"
+    let rtsp = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov"
     
     @IBOutlet weak var textView: UITextView!
     override func viewDidLoad() {
@@ -24,13 +25,13 @@ class IJKDemoInputURLViewController: UIViewController, UITextViewDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        textView.text = m3u8
+        textView.text = rtsp
     }
     
     @objc func onClickPlayButton() {
         let url = URL(string: textView.text)
         let scheme: String? = url?.scheme?.lowercased()
-        if (scheme == "http") || (scheme == "https") || (scheme == "rtmp") {
+        if (scheme == "http") || (scheme == "https") || (scheme == "rtmp") || (scheme == "rtsp") {
             IJKPlayerViewController.present(from: self, withTitle: "URL: \(String(describing: url))", url: url!, completion: {() -> Void in
                 self.navigationController?.popViewController(animated: false)
             })
