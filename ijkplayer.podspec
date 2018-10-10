@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ijkplayer"
-  s.version      = "1.1.4"
+  s.version      = "1.1.3"
   s.summary      = "ijkplayer framework."
 
   s.description  = <<-DESC
@@ -21,10 +21,10 @@ bilibili/ijkplayer k0.8.8  IJKMediaFramework 上传到 cococapods
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFrameworkWithSSL.framework.zip" }
+  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFramework.framework.zip" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
-  s.vendored_frameworks = 'IJKMediaFrameworkWithSSL.framework'
+  s.vendored_frameworks = 'IJKMediaFrameworkWith.framework'
 
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   s.libraries   = "bz2", "z", "stdc++"
